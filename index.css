@@ -1,0 +1,15 @@
+.nome-local{
+    margin-top: 50px;
+    text-align: center;
+}
+.corpo{
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color:#6A5ACD;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.info{
+    opacity: 9999999;
+}

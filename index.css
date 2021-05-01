@@ -2,6 +2,11 @@
     margin-top: 50px;
     text-align: center;
 }
+
+.tela{
+    position: absolute;
+}
+
 .corpo{
     margin-left: 500px;
     margin-right: 500px;

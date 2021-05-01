@@ -4,7 +4,7 @@
 }
 
 .corpo{
-    opacity: 0.9;
+    opacity: 0.93;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
@@ -20,6 +20,7 @@
 }
 
 footer {
+    opacity: 0.93;
     text-align: center;
     background:#6A5ACD;
     width: 100%;
@@ -33,4 +34,8 @@ footer {
     margin-left: 500px;
     margin-right: 500px;
     background-color:#6A5ACD;
+}
+#fotoModal{
+    text-align: center;
+    margin-top: 150px;
 }

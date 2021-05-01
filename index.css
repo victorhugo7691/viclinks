@@ -12,11 +12,13 @@
 
 .info{
     opacity: 9999999;
+    padding: 45px 32px;
 }
 
 footer {
   text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
+  padding: 2px;
+  background-color:#363636;
   color: white;
+  margin-bottom: 1px;
 }

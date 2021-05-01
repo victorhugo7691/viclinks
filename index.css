@@ -1,8 +1,10 @@
-html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0;	
+body{
+    width:90%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
 }
+
 .nome-local{
     margin-top: 50px;
     text-align: center;

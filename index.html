@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" ng-app="viclinks">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body background="util/background.jpeg" class="tela" width="100%">
-    {{viclinks}}
     <div class="corpo">
         <div class="nome-local">
             <button type="button" class="rounded-circle" data-bs-toggle="modal" data-bs-target="#fotoModal">
-            <img src="util/img.png" alt="..." width="200px" class="rounded-circle" ng-click="fotoPerfil"> </button>
+            <img src="util/img.png" alt="..." width="200px" class="rounded-circle"></button>
             <br>
             <h7>@victorhugo7691</h7>
             <h2>Victor Hugo</h2>
             <h7>Computer enginner student</h7>
         </div>
-        <div ng-view=""></div>
         <div>
             <a href="https://www.linkedin.com/in/victor-hugo-b-s-miranda-66700b10a/"><button type="button" class="btn btn-light info"><img src="util/linkedin.png" width="30px"> Linkedin</button></a><br>
             <a href="https://www.instagram.com/victorhugo7691/"><button type="button" class="btn btn-light info"><img src="util/instagram.png" width="30px"> Instagram</button></a><br>
@@ -40,7 +38,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalLabel">Foto</h5>
+          <h6 class="modal-title" id="modalLabel">Foto</h6>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
